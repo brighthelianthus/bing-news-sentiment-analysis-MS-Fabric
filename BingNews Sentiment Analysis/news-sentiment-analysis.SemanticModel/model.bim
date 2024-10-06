@@ -1,0 +1,321 @@
+{
+  "compatibilityLevel": 1604,
+  "model": {
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.134.7446.3 (Main)"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"DatabaseQuery\"]"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"WebModelingEdit\"]"
+      }
+    ],
+    "collation": "Latin1_General_100_BIN2_UTF8",
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "Language": "en-US",
+            "Version": "1.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "expressions": [
+      {
+        "name": "DatabaseQuery",
+        "annotations": [
+          {
+            "name": "PBI_IncludeFutureArtifacts",
+            "value": "False"
+          }
+        ],
+        "expression": [
+          "let",
+          "    database = Sql.Database(\"E3U76FGTU44UHETLIAHQ237FVE-27ZU5TANSHOUBFZ47V67RXMA2Q.datawarehouse.fabric.microsoft.com\", \"f0e9c5f8-93d4-4267-b41f-00ffa9ca0ab1\")",
+          "in",
+          "    database"
+        ],
+        "kind": "m",
+        "lineageTag": "3e28c9bc-fba4-4fbe-a2a8-803c69b62cea"
+      }
+    ],
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "tbl_sentiment_analysed",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "title",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "61ca193d-6d16-468c-a483-2f695623e5d2",
+            "sourceColumn": "title",
+            "sourceLineageTag": "title",
+            "sourceProviderType": "varchar(8000)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "description",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "67c0b577-6ae6-4a8e-9dc2-9aea4ef93af0",
+            "sourceColumn": "description",
+            "sourceLineageTag": "description",
+            "sourceProviderType": "varchar(8000)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "category",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5fe44667-2bc5-4da4-8a5b-6da7f2fbf9f0",
+            "sourceColumn": "category",
+            "sourceLineageTag": "category",
+            "sourceProviderType": "varchar(8000)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "url",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "DataCategory"
+              }
+            ],
+            "dataCategory": "WebUrl",
+            "dataType": "string",
+            "lineageTag": "5c7fb5fa-b7ae-4b1d-8fd8-56ed45d67386",
+            "sourceColumn": "url",
+            "sourceLineageTag": "url",
+            "sourceProviderType": "varchar(8000)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "image",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "DataCategory"
+              }
+            ],
+            "dataCategory": "ImageUrl",
+            "dataType": "string",
+            "lineageTag": "bfce0a35-4bcd-44d4-a52e-c5b0616edd0f",
+            "sourceColumn": "image",
+            "sourceLineageTag": "image",
+            "sourceProviderType": "varchar(8000)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "provider",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8223b38b-141b-4d04-89b4-858cac086eee",
+            "sourceColumn": "provider",
+            "sourceLineageTag": "provider",
+            "sourceProviderType": "varchar(8000)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "datePublished",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isCustom\":true}"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "DataType"
+              },
+              {
+                "property": "FormatString"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "d mmm yyyy",
+            "lineageTag": "22b5fd52-2bcd-4dfc-b268-bef264d1737b",
+            "sourceColumn": "datePublished",
+            "sourceLineageTag": "datePublished",
+            "sourceProviderType": "varchar(8000)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "sentiment",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "cb27463d-f971-4cae-9cfc-59c3a8ac49f3",
+            "sourceColumn": "sentiment",
+            "sourceLineageTag": "sentiment",
+            "sourceProviderType": "varchar(8000)",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "ad13f70e-c5c3-47fa-9160-f8ce640744f2",
+        "measures": [
+          {
+            "name": "Positive Sentiment %",
+            "changedProperties": [
+              {
+                "property": "Name"
+              },
+              {
+                "property": "FormatString"
+              }
+            ],
+            "expression": [
+              "",
+              "IF (",
+              "    COUNTROWS (FILTER ('tbl_sentiment_analysed', 'tbl_sentiment_analysed'[sentiment] = ",
+              "    \"positive\")) > 0, ",
+              "    DIVIDE ( ",
+              "        CALCULATE ( ",
+              "            COUNTROWS (FILTER ( 'tbl_sentiment_analysed' , 'tbl_sentiment_analysed'[sentiment] = \"positive\"))",
+              "            ), ",
+              "        COUNTROWS('tbl_sentiment_analysed')",
+              "        ),",
+              "    0",
+              ")"
+            ],
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "8ef2d054-7a5c-4335-9a0d-94433709791c"
+          },
+          {
+            "name": "Negative Sentiment %",
+            "changedProperties": [
+              {
+                "property": "Name"
+              },
+              {
+                "property": "FormatString"
+              }
+            ],
+            "expression": [
+              "",
+              "IF (",
+              "    COUNTROWS (FILTER ('tbl_sentiment_analysed', 'tbl_sentiment_analysed'[sentiment] = ",
+              "    \"negative\")) > 0, ",
+              "    DIVIDE ( ",
+              "        CALCULATE ( ",
+              "            COUNTROWS (FILTER ( 'tbl_sentiment_analysed' , 'tbl_sentiment_analysed'[sentiment] = \"negative\"))",
+              "            ), ",
+              "        COUNTROWS('tbl_sentiment_analysed')",
+              "        ),",
+              "    0",
+              ")"
+            ],
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "c50b4c83-dc95-46ca-8fa3-9a77d9ac4138"
+          },
+          {
+            "name": "Neutral Sentiment %",
+            "changedProperties": [
+              {
+                "property": "Name"
+              },
+              {
+                "property": "FormatString"
+              }
+            ],
+            "expression": [
+              "",
+              "IF (",
+              "    COUNTROWS (FILTER ('tbl_sentiment_analysed', 'tbl_sentiment_analysed'[sentiment] = ",
+              "    \"neutral\")) > 0, ",
+              "    DIVIDE ( ",
+              "        CALCULATE ( ",
+              "            COUNTROWS (FILTER ( 'tbl_sentiment_analysed' , 'tbl_sentiment_analysed'[sentiment] = \"neutral\"))",
+              "            ), ",
+              "        COUNTROWS('tbl_sentiment_analysed')",
+              "        ),",
+              "    0",
+              ")"
+            ],
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "c655b63d-792d-4f21-8946-8e6bef5a8bd6"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "tbl_sentiment_analysed",
+            "mode": "directLake",
+            "source": {
+              "entityName": "tbl_sentiment_analysed",
+              "expressionSource": "DatabaseQuery",
+              "schemaName": "dbo",
+              "type": "entity"
+            }
+          }
+        ],
+        "sourceLineageTag": "[dbo].[tbl_sentiment_analysed]"
+      }
+    ]
+  }
+}

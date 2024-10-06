@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "News Sentiment From Bing"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "02bc3272-14a8-46b5-a740-901584e86553"
+  }
+}
