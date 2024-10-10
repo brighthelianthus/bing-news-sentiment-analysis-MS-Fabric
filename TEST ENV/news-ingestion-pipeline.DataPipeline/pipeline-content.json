@@ -18,7 +18,10 @@
             "datasetSettings": {
               "type": "RestResource",
               "typeProperties": {
-                "relativeUrl": "?q=@{pipeline().parameters.search_term}&count=100&freshness=Day&mkt=en-IN"
+                "relativeUrl": {
+                  "value": "?q=@{pipeline().parameters.search_term}&count=100&freshness=Day&mkt=en-IN",
+                  "type": "Expression"
+                }
               },
               "schema": [],
               "externalReferences": {
@@ -49,8 +52,8 @@
                 "properties": {
                   "type": "Lakehouse",
                   "typeProperties": {
-                    "artifactId": "1fb1a8f2-4fa7-4d21-b4bb-5e660bbc5405",
-                    "workspaceId": "00000000-0000-0000-0000-000000000000",
+                    "artifactId": "b8fde9a0-e077-4a84-a9c4-99671b604f8f",
+                    "workspaceId": "91b20797-d3ed-4675-9e5e-8af77c7e079b",
                     "rootFolder": "Files"
                   },
                   "annotations": []
@@ -70,6 +73,8 @@
           "secureOutput": false
         },
         "name": "Copy latest news",
+        "state": "Inactive",
+        "onInactiveMarkAs": "Succeeded",
         "dependsOn": []
       },
       {

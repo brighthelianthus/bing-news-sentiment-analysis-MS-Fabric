@@ -268,17 +268,3 @@ except AnalysisException:   ### SCD type 1
 # META   "language": "sparksql",
 # META   "language_group": "synapse_pyspark"
 # META }
-
-# CELL ********************
-
-# MAGIC %%sql
-# MAGIC select *, count(*) from bing_lake_db.tbl_sentiment_analysed group by title, description, url, image, provider, datePublished, sentiment, category having count(*) > 1 order by url ;
-# MAGIC select count(*) from bing_lake_db.tbl_sentiment_analysed
-
-
-# METADATA ********************
-
-# META {
-# META   "language": "sparksql",
-# META   "language_group": "synapse_pyspark"
-# META }
