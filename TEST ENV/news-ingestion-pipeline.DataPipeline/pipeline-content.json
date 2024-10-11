@@ -52,8 +52,8 @@
                 "properties": {
                   "type": "Lakehouse",
                   "typeProperties": {
-                    "artifactId": "b8fde9a0-e077-4a84-a9c4-99671b604f8f",
-                    "workspaceId": "91b20797-d3ed-4675-9e5e-8af77c7e079b",
+                    "artifactId": "1fb1a8f2-4fa7-4d21-b4bb-5e660bbc5405",
+                    "workspaceId": "00000000-0000-0000-0000-000000000000",
                     "rootFolder": "Files"
                   },
                   "annotations": []
@@ -73,8 +73,6 @@
           "secureOutput": false
         },
         "name": "Copy latest news",
-        "state": "Inactive",
-        "onInactiveMarkAs": "Succeeded",
         "dependsOn": []
       },
       {
