@@ -1,5 +1,5 @@
 {
-  "config": "{\"version\":\"5.59\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"version\":\"5.59\",\"type\":2}},\"activeSectionIndex\":1,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":0,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"useEnhancedTooltips\":true,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"allowInlineExploration\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"creationSource\":\"QuickCreate\"}",
+  "config": "{\"version\":\"5.59\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"version\":\"5.59\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":0,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"useEnhancedTooltips\":true,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"allowInlineExploration\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"creationSource\":\"QuickCreate\"}",
   "layoutOptimization": 0,
   "resourcePackages": [
     {
@@ -54,12 +54,12 @@
           "z": 13000.00
         },
         {
-          "config": "{\"name\":\"279b0fa8516ff8756615\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":96,\"width\":606,\"height\":458,\"tabOrder\":4000,\"z\":9000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"tbl_sentiment_analysed.sentiment\",\"active\":true}],\"Y\":[{\"queryRef\":\"Count(tbl_sentiment_analysed.title)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"tbl_sentiment_analysed\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"sentiment\"},\"Name\":\"tbl_sentiment_analysed.sentiment\",\"NativeReferenceName\":\"sentiment\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"title\"}},\"Function\":2},\"Name\":\"Count(tbl_sentiment_analysed.title)\",\"NativeReferenceName\":\"Count of title\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"title\"}},\"Function\":2}}}]},\"columnProperties\":{\"Count(tbl_sentiment_analysed.title)\":{\"displayName\":\"Count of title\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"axisType\":{\"expr\":{\"Literal\":{\"Value\":\"'Categorical'\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"visualHeader\":[{\"properties\":{\"showCopyVisualImageButton\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showFilterRestatementButton\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showFocusModeButton\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showPinButton\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "config": "{\"name\":\"279b0fa8516ff8756615\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20.223048327137548,\"y\":196.2825278810409,\"z\":9000,\"width\":605.5018587360595,\"height\":358.0669144981413,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"ribbonChart\",\"projections\":{\"Category\":[{\"queryRef\":\"tbl_sentiment_analysed.sentiment\",\"active\":true}],\"Y\":[{\"queryRef\":\"Count(tbl_sentiment_analysed.title)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"tbl_sentiment_analysed\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"sentiment\"},\"Name\":\"tbl_sentiment_analysed.sentiment\",\"NativeReferenceName\":\"sentiment\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"title\"}},\"Function\":2},\"Name\":\"Count(tbl_sentiment_analysed.title)\",\"NativeReferenceName\":\"News items\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"title\"}},\"Function\":2}}}]},\"columnProperties\":{\"Count(tbl_sentiment_analysed.title)\":{\"displayName\":\"News items\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"axisType\":{\"expr\":{\"Literal\":{\"Value\":\"'Categorical'\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"visualHeader\":[{\"properties\":{\"showCopyVisualImageButton\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showFilterRestatementButton\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showFocusModeButton\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showPinButton\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
           "filters": "[]",
-          "height": 458.00,
-          "width": 606.00,
-          "x": 20.00,
-          "y": 96.00,
+          "height": 358.07,
+          "width": 605.50,
+          "x": 20.22,
+          "y": 196.28,
           "z": 9000.00
         },
         {
@@ -81,8 +81,8 @@
           "z": 11000.00
         },
         {
-          "config": "{\"name\":\"547da05435cc3e8273bc\",\"layouts\":[{\"id\":0,\"position\":{\"width\":606,\"height\":282,\"x\":654,\"y\":96,\"tabOrder\":2000,\"z\":7000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"tbl_sentiment_analysed.sentiment\",\"active\":true}],\"Y\":[{\"queryRef\":\"Count(tbl_sentiment_analysed.image)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"tbl_sentiment_analysed\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"sentiment\"},\"Name\":\"tbl_sentiment_analysed.sentiment\",\"NativeReferenceName\":\"sentiment\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"image\"}},\"Function\":2},\"Name\":\"Count(tbl_sentiment_analysed.image)\",\"NativeReferenceName\":\"Count of image\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"image\"}},\"Function\":2}}}]},\"columnProperties\":{\"Count(tbl_sentiment_analysed.image)\":{\"displayName\":\"Count of image\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"axisType\":{\"expr\":{\"Literal\":{\"Value\":\"'Categorical'\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"visualHeader\":[{\"properties\":{\"showCopyVisualImageButton\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showFilterRestatementButton\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showFocusModeButton\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showPinButton\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
-          "filters": "[]",
+          "config": "{\"name\":\"547da05435cc3e8273bc\",\"layouts\":[{\"id\":0,\"position\":{\"width\":606,\"height\":282,\"x\":654,\"y\":96,\"tabOrder\":2000,\"z\":7000}}],\"singleVisual\":{\"visualType\":\"funnel\",\"projections\":{\"Category\":[{\"queryRef\":\"tbl_sentiment_analysed.provider\",\"active\":true}],\"Y\":[{\"queryRef\":\"CountNonNull(tbl_sentiment_analysed.url)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"tbl_sentiment_analysed\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"provider\"},\"Name\":\"tbl_sentiment_analysed.provider\",\"NativeReferenceName\":\"provider\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"url\"}},\"Function\":5},\"Name\":\"CountNonNull(tbl_sentiment_analysed.url)\",\"NativeReferenceName\":\"Top 10 News Providers by count of news\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"url\"}},\"Function\":5}}}]},\"columnProperties\":{\"CountNonNull(tbl_sentiment_analysed.url)\":{\"displayName\":\"Top 10 News Providers by count of news\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"visualHeader\":[{\"properties\":{\"showCopyVisualImageButton\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showFilterRestatementButton\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showFocusModeButton\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showPinButton\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[{\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"tbl_sentiment_analysed\"}},\"Property\":\"provider\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"subquery\",\"Expression\":{\"Subquery\":{\"Query\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"tbl_sentiment_analysed\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"provider\"},\"Name\":\"field\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"url\"}},\"Function\":2}}}],\"Top\":10}}},\"Type\":2},{\"Name\":\"t\",\"Entity\":\"tbl_sentiment_analysed\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"provider\"}}],\"Table\":{\"SourceRef\":{\"Source\":\"subquery\"}}}}}]},\"type\":\"TopN\",\"howCreated\":0,\"isHiddenInViewMode\":false}]",
           "height": 282.00,
           "width": 606.00,
           "x": 654.00,
@@ -99,12 +99,12 @@
           "z": 10000.00
         },
         {
-          "config": "{\"name\":\"818ec5b48aead7f3ca37\",\"layouts\":[{\"id\":0,\"position\":{\"width\":289,\"height\":282,\"x\":654,\"y\":414,\"tabOrder\":1000,\"z\":6000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"tbl_sentiment_analysed.sentiment\",\"active\":true}],\"Y\":[{\"queryRef\":\"Count(tbl_sentiment_analysed.description)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"tbl_sentiment_analysed\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"sentiment\"},\"Name\":\"tbl_sentiment_analysed.sentiment\",\"NativeReferenceName\":\"sentiment\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"description\"}},\"Function\":2},\"Name\":\"Count(tbl_sentiment_analysed.description)\",\"NativeReferenceName\":\"Count of description\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"description\"}},\"Function\":2}}}]},\"columnProperties\":{\"Count(tbl_sentiment_analysed.description)\":{\"displayName\":\"Count of description\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"axisType\":{\"expr\":{\"Literal\":{\"Value\":\"'Categorical'\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":4,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"visualHeader\":[{\"properties\":{\"showCopyVisualImageButton\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showFilterRestatementButton\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showFocusModeButton\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showPinButton\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "config": "{\"name\":\"818ec5b48aead7f3ca37\",\"layouts\":[{\"id\":0,\"position\":{\"x\":654.275092936803,\"y\":413.97769516728624,\"z\":6000,\"width\":613.8289962825279,\"height\":281.9330855018587,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Count(tbl_sentiment_analysed.description)\"}],\"Category\":[{\"queryRef\":\"tbl_sentiment_analysed.category\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"tbl_sentiment_analysed\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"description\"}},\"Function\":2},\"Name\":\"Count(tbl_sentiment_analysed.description)\",\"NativeReferenceName\":\"News items\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"category\"},\"Name\":\"tbl_sentiment_analysed.category\",\"NativeReferenceName\":\"category\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"description\"}},\"Function\":2}}}]},\"columnProperties\":{\"Count(tbl_sentiment_analysed.description)\":{\"displayName\":\"News items\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":4,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"visualHeader\":[{\"properties\":{\"showCopyVisualImageButton\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showFilterRestatementButton\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showFocusModeButton\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showPinButton\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
           "filters": "[]",
-          "height": 282.00,
-          "width": 289.00,
-          "x": 654.00,
-          "y": 414.00,
+          "height": 281.93,
+          "width": 613.83,
+          "x": 654.28,
+          "y": 413.98,
           "z": 6000.00
         },
         {
@@ -117,24 +117,6 @@
           "z": 15000.00
         },
         {
-          "config": "{\"name\":\"a6252ab1f4474ddf6271\",\"layouts\":[{\"id\":0,\"position\":{\"width\":305,\"height\":306,\"x\":963,\"y\":402,\"tabOrder\":-5000,\"z\":4000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"fill\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}}}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4M\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#E6E6E6'\"}}}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"preset\":{\"expr\":{\"Literal\":{\"Value\":\"'Custom'\"}}},\"shadowBlur\":{\"expr\":{\"Literal\":{\"Value\":\"3M\"}}},\"shadowDistance\":{\"expr\":{\"Literal\":{\"Value\":\"1M\"}}},\"shadowSpread\":{\"expr\":{\"Literal\":{\"Value\":\"1M\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"87M\"}}}}}]}}}",
-          "filters": "[]",
-          "height": 306.00,
-          "width": 305.00,
-          "x": 963.00,
-          "y": 402.00,
-          "z": 4000.00
-        },
-        {
-          "config": "{\"name\":\"b47f3ac2e1fe16442f1b\",\"layouts\":[{\"id\":0,\"position\":{\"width\":289,\"height\":282,\"x\":971,\"y\":414,\"tabOrder\":0,\"z\":5000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"tbl_sentiment_analysed.sentiment\",\"active\":true}],\"Y\":[{\"queryRef\":\"Count(tbl_sentiment_analysed.url)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"tbl_sentiment_analysed\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"sentiment\"},\"Name\":\"tbl_sentiment_analysed.sentiment\",\"NativeReferenceName\":\"sentiment\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"url\"}},\"Function\":2},\"Name\":\"Count(tbl_sentiment_analysed.url)\",\"NativeReferenceName\":\"Count of url\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"url\"}},\"Function\":2}}}]},\"columnProperties\":{\"Count(tbl_sentiment_analysed.url)\":{\"displayName\":\"Count of url\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"axisType\":{\"expr\":{\"Literal\":{\"Value\":\"'Categorical'\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":5,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"visualHeader\":[{\"properties\":{\"showCopyVisualImageButton\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showFilterRestatementButton\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showFocusModeButton\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showPinButton\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
-          "filters": "[]",
-          "height": 282.00,
-          "width": 289.00,
-          "x": 971.00,
-          "y": 414.00,
-          "z": 5000.00
-        },
-        {
           "config": "{\"name\":\"c62e4b8f471584fb8c9a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":12,\"y\":58,\"height\":26,\"width\":1256,\"tabOrder\":-1000,\"z\":0}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}},\"weight\":{\"expr\":{\"Literal\":{\"Value\":\"1M\"}}}},\"selector\":{\"id\":\"default\"}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'line'\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
           "filters": "[]",
           "height": 26.00,
@@ -144,12 +126,12 @@
           "z": 0.00
         },
         {
-          "config": "{\"name\":\"d95547a2fd06d8a2acfb\",\"layouts\":[{\"id\":0,\"position\":{\"x\":12,\"y\":84,\"width\":622,\"height\":624,\"tabOrder\":-2000,\"z\":1000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"fill\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}}}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4M\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#E6E6E6'\"}}}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"preset\":{\"expr\":{\"Literal\":{\"Value\":\"'Custom'\"}}},\"shadowBlur\":{\"expr\":{\"Literal\":{\"Value\":\"3M\"}}},\"shadowDistance\":{\"expr\":{\"Literal\":{\"Value\":\"1M\"}}},\"shadowSpread\":{\"expr\":{\"Literal\":{\"Value\":\"1M\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"87M\"}}}}}]}}}",
+          "config": "{\"name\":\"d95547a2fd06d8a2acfb\",\"layouts\":[{\"id\":0,\"position\":{\"x\":11.895910780669146,\"y\":154.64684014869889,\"z\":1000,\"width\":622.1561338289963,\"height\":553.1598513011153,\"tabOrder\":-2000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"fill\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}}}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4M\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#E6E6E6'\"}}}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"preset\":{\"expr\":{\"Literal\":{\"Value\":\"'Custom'\"}}},\"shadowBlur\":{\"expr\":{\"Literal\":{\"Value\":\"3M\"}}},\"shadowDistance\":{\"expr\":{\"Literal\":{\"Value\":\"1M\"}}},\"shadowSpread\":{\"expr\":{\"Literal\":{\"Value\":\"1M\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"87M\"}}}}}]}}}",
           "filters": "[]",
-          "height": 624.00,
-          "width": 622.00,
-          "x": 12.00,
-          "y": 84.00,
+          "height": 553.16,
+          "width": 622.16,
+          "x": 11.90,
+          "y": 154.65,
           "z": 1000.00
         },
         {
@@ -162,6 +144,15 @@
           "z": 3000.00
         },
         {
+          "config": "{\"name\":\"e49042e720a860d370e6\",\"layouts\":[{\"id\":0,\"position\":{\"x\":23.791821561338292,\"y\":71.37546468401487,\"z\":15001,\"width\":299.7769516728625,\"height\":67.80669144981412,\"tabOrder\":10001}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"tbl_sentiment_analysed.datePublished\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"tbl_sentiment_analysed\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"datePublished\"},\"Name\":\"tbl_sentiment_analysed.datePublished\",\"NativeReferenceName\":\"datePublished\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"datePublished\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 67.81,
+          "width": 299.78,
+          "x": 23.79,
+          "y": 71.38,
+          "z": 15001.00
+        },
+        {
           "config": "{\"name\":\"ff2f40caba27e72073a0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":647,\"y\":12,\"height\":50,\"width\":199,\"tabOrder\":7000,\"z\":12000}}],\"singleVisual\":{\"visualType\":\"multiRowCard\",\"projections\":{\"Values\":[{\"queryRef\":\"Count(tbl_sentiment_analysed.image)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"tbl_sentiment_analysed\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"image\"}},\"Function\":2},\"Name\":\"Count(tbl_sentiment_analysed.image)\",\"NativeReferenceName\":\"Count of image\"}]},\"columnProperties\":{\"Count(tbl_sentiment_analysed.image)\":{\"displayName\":\"Count of image\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"card\":[{\"properties\":{\"barColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":0}}}}},\"barWeight\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}}}}],\"dataLabels\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11L\"}}}}}],\"categoryLabels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0.4}}}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11L\"}}}}}]},\"vcObjects\":{\"visualHeader\":[{\"properties\":{\"showCopyVisualImageButton\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showFilterRestatementButton\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showFocusModeButton\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showPinButton\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showPersonalizeVisualButton\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
           "filters": "[]",
           "height": 50.00,
@@ -169,6 +160,54 @@
           "x": 647.00,
           "y": 12.00,
           "z": 12000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Page 3",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "4d9252bdad7286789ce0",
+      "ordinal": 2,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"0c5b5b82de079c454e16\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":57.1003717472119,\"z\":3,\"width\":553.1598513011153,\"height\":82.0817843866171,\"tabOrder\":3}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"News Sentiment count by News Category\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"20pt\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 82.08,
+          "width": 553.16,
+          "x": 0.00,
+          "y": 57.10,
+          "z": 3.00
+        },
+        {
+          "config": "{\"name\":\"26890720992a5d1507c6\",\"layouts\":[{\"id\":0,\"position\":{\"x\":567.4349442379182,\"y\":421.11524163568777,\"z\":1,\"width\":712.5650557620818,\"height\":279.5539033457249,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"pivotTable\",\"projections\":{\"Rows\":[{\"queryRef\":\"tbl_sentiment_analysed.provider\",\"active\":true}],\"Columns\":[{\"queryRef\":\"tbl_sentiment_analysed.sentiment\",\"active\":true}],\"Values\":[{\"queryRef\":\"Min(tbl_sentiment_analysed.title)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"tbl_sentiment_analysed\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"provider\"},\"Name\":\"tbl_sentiment_analysed.provider\",\"NativeReferenceName\":\"provider\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"sentiment\"},\"Name\":\"tbl_sentiment_analysed.sentiment\",\"NativeReferenceName\":\"sentiment\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"title\"}},\"Function\":5},\"Name\":\"Min(tbl_sentiment_analysed.title)\",\"NativeReferenceName\":\"Count of title\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"stylePreset\":[{\"properties\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'BoldHeader'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 279.55,
+          "width": 712.57,
+          "x": 567.43,
+          "y": 421.12,
+          "z": 1.00
+        },
+        {
+          "config": "{\"name\":\"4db531e26cb9639e8346\",\"layouts\":[{\"id\":0,\"position\":{\"x\":567.4349442379182,\"y\":85.65055762081785,\"z\":2,\"width\":712.5650557620818,\"height\":292.63940520446096,\"tabOrder\":2}}],\"singleVisual\":{\"visualType\":\"pivotTable\",\"projections\":{\"Columns\":[{\"queryRef\":\"tbl_sentiment_analysed.sentiment\",\"active\":true}],\"Values\":[{\"queryRef\":\"Min(tbl_sentiment_analysed.title)\"}],\"Rows\":[{\"queryRef\":\"tbl_sentiment_analysed.category\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"tbl_sentiment_analysed\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"sentiment\"},\"Name\":\"tbl_sentiment_analysed.sentiment\",\"NativeReferenceName\":\"sentiment\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"title\"}},\"Function\":5},\"Name\":\"Min(tbl_sentiment_analysed.title)\",\"NativeReferenceName\":\"Count of title\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"category\"},\"Name\":\"tbl_sentiment_analysed.category\",\"NativeReferenceName\":\"category\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"stylePreset\":[{\"properties\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'BoldHeader'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 292.64,
+          "width": 712.57,
+          "x": 567.43,
+          "y": 85.65,
+          "z": 2.00
+        },
+        {
+          "config": "{\"name\":\"add6853b0eeb00de5940\",\"layouts\":[{\"id\":0,\"position\":{\"x\":15.464684014869889,\"y\":368.7732342007435,\"z\":4,\"width\":537.6951672862454,\"height\":86.84014869888476,\"tabOrder\":4}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"News Sentiment count by News Provider\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"20pt\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 86.84,
+          "width": 537.70,
+          "x": 15.46,
+          "y": 368.77,
+          "z": 4.00
         }
       ],
       "width": 1280.00
@@ -201,7 +240,7 @@
           "z": 2000.00
         },
         {
-          "config": "{\"name\":\"71c81a2e88ff4f0caed1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1021.7842876165114,\"y\":14.48735019973369,\"z\":1000,\"width\":219.86684420772306,\"height\":65.61917443408788,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"tbl_sentiment_analysed.datePublished\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"tbl_sentiment_analysed\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"datePublished\"},\"Name\":\"tbl_sentiment_analysed.datePublished\",\"NativeReferenceName\":\"datePublished\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]},\"vcObjects\":{\"general\":[{\"properties\":{\"keepLayerOrder\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "config": "{\"name\":\"71c81a2e88ff4f0caed1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1021.7842876165114,\"y\":14.48735019973369,\"z\":1000,\"width\":219.86684420772306,\"height\":65.61917443408788,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"tbl_sentiment_analysed.datePublished\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"tbl_sentiment_analysed\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"datePublished\"},\"Name\":\"tbl_sentiment_analysed.datePublished\",\"NativeReferenceName\":\"datePublished\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"tbl_sentiment_analysed\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"datePublished\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"datetime'2024-10-10T00:00:00'\"}}]]}}}]}}}}]},\"vcObjects\":{\"general\":[{\"properties\":{\"keepLayerOrder\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
           "filters": "[]",
           "height": 65.62,
           "width": 219.87,
